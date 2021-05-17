@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Feuille.css">
+        <title>Scratch - Accueil</title>
+        <link rel="icon" type="image/png" href="/ressources/ma tête 2.png">
+    </head>
+    
+    <body style="padding: 0;margin: 0;min-height: 800px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            
+        <div class="topnav"> 
+            <div class="logo" style="margin: auto;"><img src="/ressources/ma tête 2.png" style="width: 43px;margin-top: 5px;"/></div>
+            <div class="titre"> <p style="margin:0;margin-top: 3px;">Scratch</p> </div>
+            <a href="Projets.html">Projets persos</a>
+            <a href="Reseau.html">Réseaux</a>
+            <a href="Presentation.html">Présentation</a>
+            <a href="welcome.html">Accueil</a>
+        </div>
+        <div class="paragraphe">
+            <h1>Bienvenue sur le site de Scratch !</h1><br>
+            <div class="menu">
+                <a href="Presentation.html"><strong>Présentation</strong> </a>
+            </div>
+            <div class="menu">
+                <a href="Reseau.html"> <strong>Réseaux sociaux</strong> </a>
+            </div>
+            <div class="menu">
+                <a href="Projets.html"> <strong>Projets et Réalisations</strong> </a>
+            </div>
+            <h1 style="padding-top: 20px;"><br>Le Stream</h1>
+            <div id="twitch-embed"></div>
+            <h1>Le Planning</h1>
+            <img src="/ressources/planning.png" alt="" style="width: 100%;"/>
+            <h1>Dernière vidéo YouTube</h1>
+            <iframe width="800" height="480" src="https://www.youtube.com/embed/lrxm18fbi6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2><br></h2>
+        </div>
+        
+        <footer> Site créé par Scratch</footer>
+
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+            <script type="text/javascript">
+            new Twitch.Embed("twitch-embed", {
+                width: 1040,
+                height: 480,
+                channel: "scratch_lol",
+            });
+            </script>
+
+    </body>
+</html>
